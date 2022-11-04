@@ -1,0 +1,54 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "Remera",
+        "precio" : 3500,
+        "stock" : 1,
+        "color" : "Blanca",
+        "img" : "./img/remera.jpg"
+    },
+
+    {
+        "id" : 2,
+        "nombre" : "Remera",
+        "precio" : 3500,
+        "stock" : 1,
+        "color" : "Negra",
+        "img" : "./img/remera1.jpg"
+    },
+    {
+        "id" : 3,
+        "nombre" : "Short",
+        "precio" : 2100,
+        "stock" : 1,
+        "color" : "Celeste",
+        "img" : "./img/short.jpg"
+    },
+    {
+        "id" : 4,
+        "nombre" : "Buzo",
+        "precio" : 3000,
+        "stock" : 1,
+        "color" : "Beige",
+        "img" : "./img/BuzoDePolar.jpg"
+    },
+    {
+        "id" : 5,
+        "nombre" : "Jogging",
+        "precio" : 2400,
+        "stock" : 1,
+        "color" : "Beige",
+        "img" : "./img/jogging.jpg"
+    },
+    {
+        "id" : 6,
+        "nombre" : "Sombrero",
+        "precio" : 1500,
+        "stock" : 1,
+        "color" : "Beige",
+        "img" : "./img/sombrero.jpg"
+    }
+   
+]
+
+

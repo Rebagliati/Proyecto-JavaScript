@@ -1,0 +1,111 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.texto-retornar {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #212529;
+}
+
+.texto-retornar:focus{
+    color: rgb(132, 194, 253);
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+
+.precio {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.form-control {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.navbar {
+    --bs-navbar-brand-margin-end: 0;
+}
+
+.colorBgBtn {
+    background: rgb(132, 194, 253);
+    background: linear-gradient(308deg, rgb(153, 231, 223 50%)) 0%, rgb(132, 194, 253);
+    --bs-btn-border-color: none;
+}
+
+.bi-bag-heart-fill{
+    color: rgb(132, 194, 253);
+}
+
+.btn-close:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgb(132, 194, 253);
+    opacity: .9;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #2125294f;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgb(132, 194, 253);
+}
+
+.cantidad-texto {
+    font-size: 0.8rem;
+}
+
+.alert-success {
+    --bs-alert-color: rgb(0, 0, 0);
+    --bs-alert-bg: rgb(132, 194, 253);
+    --bs-alert-border-color: rgb(125, 154, 181);
+}
+
+.productoEnCarrito{
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contador-carrito{
+    margin: 0px 0px 0px 0px!important;
+    padding: 3px 9px;
+    font-size: 0.55rem;
+    font-weight: 800;
+    line-height: 1rem;
+    color: white;
+    border-radius: 30px;
+    background: linear-gradient(308deg, rgb(153, 231, 223) 0%, rgb(132, 194, 253) 50%);
+}
+
+.carrito-btn {
+    width: 100px;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    border: none;
+}
